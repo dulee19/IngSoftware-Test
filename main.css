@@ -1,0 +1,337 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.bg-image {
+	width: 100%;
+	min-height: 750px;
+	background:url(img/home-4.jpg) no-repeat 0;
+	background-size: cover;
+}
+
+.logo img {
+	position: relative;
+	left: 100px;
+	margin-top:  15px;
+	margin-left: 10px;
+}
+
+.logo .img1 {
+	width: 50px;
+}
+
+.logo .img2 {
+	width: 130px;
+	position: relative;
+	right: 15px;
+}
+
+.logo p {
+	position: relative;
+	left: 107px;
+	color: floralwhite;
+	display: -webkit-box;
+	line-height: 5px;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+
+nav ul li{
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	padding: 10px;
+	position: relative;
+	bottom: 65px;
+	-webkit-box-flex:1;
+}
+li a {
+	color: beige;
+	font-size: 17px;
+	text-decoration: none;
+	border:1px solid lightyellow;
+	padding: 3px;
+}
+li a:hover {
+	background:beige;
+	color: blueviolet;
+}
+
+
+/*Bg-content*/
+
+.bg-content {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	color: antiquewhite;
+	position: sticky;
+	left: 22.4%;
+	top: 33%;
+	-webkit-box-flex:1;
+/*	position: relative;
+	left: 300px;
+	top: 160px;*/
+}
+
+.bg-content p {
+	margin-top: 30px;
+	font-size: 22px;
+	text-indent: 130px;
+	margin-right: 40px;
+}
+.bg-content h2 {
+	text-indent: 20px;
+	margin-left: 140px;
+	font-size: 40px;
+}
+
+
+/*james class*/
+
+
+.james {
+	position: sticky;
+	left: 44.6%;
+	display: flow-root;
+	text-align: center;
+	-webkit-box-flex:0;
+}
+.james a {
+	position: relative;  
+	top: 270px;
+	right:29px; 
+	color: snow;
+	text-decoration: none;
+	border:1px solid gold;
+	padding: 6px;
+	font-size: 17px;
+	display: inline-block;
+	-webkit-box-flex:0;
+}
+.james a:hover {
+	background:gray;
+	color: ghostwhite;
+}
+.james img {
+	margin-right: 15px;
+	position: relative;
+	left: 68px;
+	top: 230px;
+	display: inline-block;
+	-webkit-box-flex:0;
+}
+
+
+#features {
+	background:#fff9e6;
+}
+#features h2 {
+	text-align: center;
+	margin-top: 15px;
+	color: blueviolet;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+#features #paragraph1 {
+	text-align: center;
+	color: blueviolet;
+	font-size: 19px;
+	line-height: 10px;
+}
+
+.our-services-inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 30px;
+}
+.service-item {
+	text-align: center;
+	width: 23.5%;
+	margin-right: 2%;
+	box-sizing: border-box;
+	padding: 15px;
+	margin-bottom: 2%;
+	padding-bottom: 35px;
+	background-color: moccasin;
+}
+
+.icon-content {
+	margin-bottom: 35px;
+}
+
+.service-item h4 {
+	font-weight: 600;
+	font-size: 17px;
+	text-transform: uppercase;
+	color: dodgerblue;
+}
+.service-item p {
+	margin-bottom: 0;
+}
+
+
+/*Forms*/
+
+
+#forms {
+	width: 100%;
+	height: 550px;
+	background: lightgreen;
+}
+#forms h2 {
+	text-align: center;
+	font-size: 26px;
+	color: cornsilk;
+	text-transform: uppercase;
+}
+#forms #paragraph {
+	text-align: center;
+	font-size: 22px;
+	line-height: 15px;
+	color: cornsilk;
+}
+
+#forms span {
+	color: darkviolet;
+	font-weight: 600;
+}
+aside {
+	margin: 0 auto;
+	padding: 20px;
+}
+aside p {
+	margin-left: 100px;
+	color: darkred;
+	font-size: 17px;
+}
+aside img {
+	margin-left: 150px;
+}
+
+/*Form - contact*/
+
+
+.form-contact {
+	text-align: center;
+}
+
+.form-contact input {
+	width: 220px;
+	margin: 15px;
+	border:none;
+	padding: 7px;
+}
+.form-contact button {
+	width: 160px;
+	padding: 6px;
+	border:none;
+	background:dodgerblue;
+	color: ghostwhite;
+	cursor: pointer;
+}
+
+
+
+
+/*About*/
+
+
+#about-us {
+	max-width: 100%;
+	min-height: 550px;
+	background:url(img/about-us-background.jpg) no-repeat 0;
+	background-size: cover;
+	display: -webkit-box;
+	position: sticky;
+}
+
+.about-logo h2 {
+	margin-left: 150px;
+	margin-top: 130px;
+	color: snow;
+	font-size: 28px;
+}
+
+.about-logo p {
+	position: absolute;
+	left:29%;
+	color: snow;
+	font-size: 20px;
+	text-align: center;
+	display: -webkit-box;
+}
+
+#about-us .ab1 {
+	position: relative;
+	left: 180px;
+	top: 110px;
+	display: -webkit-box;
+}
+
+
+.james1 #ja1 {
+	position: relative;
+	display: inline-block;
+	-webkit-box-flex:1;
+	top: 190px;
+	left:310px;
+}
+
+.james1 a {
+	float: right;
+	position: absolute;
+	right: 21%;
+	bottom: 24%;
+	display: -webkit-box;
+	-webkit-box-flex:1;
+	color: snow;
+	text-decoration: none;
+	font-size: 19px;
+	border:1px solid lightyellow;
+	padding: 2px;
+	cursor: pointer;
+	width: 90px;
+}
+
+.james1 a:hover {
+	background: silver;
+	color: darkred;
+}
+
+
+footer {
+	min-height: 40px;
+	background: darkred;
+	color: snow;
+	font-size: 19px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/*@media only screen(max-width: 854px) {
+	body {
+		text-align: center;
+		width: 100%;
+		-webkit-box-flex:0;
+	}
+}*/
+
+
+
